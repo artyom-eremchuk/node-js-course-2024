@@ -3,12 +3,12 @@
 ## Prepare
 
 ```bash
-npm install
+npm run project-install
 ```
 or 
 
 ```bash
-npm ci
+npm run project-ci
 ```
 
 ## Start
