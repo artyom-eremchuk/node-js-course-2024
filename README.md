@@ -1,1 +1,1 @@
-# node-js-course-2024
+# Node JS Course 2024
