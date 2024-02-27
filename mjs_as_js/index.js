@@ -1,5 +1,5 @@
-import { Square as SquareClassic } from "./square.js";
 import Square from "./squareDefault.js";
+import { Square as SquareClassic } from "./square.js";
 
 const squareDefault = new Square(3);
 const squareClassic = new SquareClassic(4);
