@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "name": "dz02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prod": "node --env-file=.env_prod index.js",
+    "dev": "node --env-file=.env_dev index.js"
+  },
+  "keywords": [],
+  "author": "Artyom Eremchuk",
+  "license": "ISC"
+}
