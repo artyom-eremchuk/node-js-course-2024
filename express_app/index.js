@@ -1,11 +1,13 @@
 import express from "express";
 import DatabaseService from "./database-service.js";
 import bodyParser from "body-parser";
+import cors from "cors";
 
 const db = new DatabaseService();
 const app = express();
 const PORT = 3002;
 
+app.use(cors());
 app.use(express.static("public/dist"));
 
 // parse application/x-www-form-urlencoded
