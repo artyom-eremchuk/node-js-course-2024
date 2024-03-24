@@ -6,6 +6,8 @@ export default class DatabaseService {
   database = [];
   filePath = join(cwd(), "..", "express-app-database.json");
 
+  database = [];
+
   constructor() {
     if (existsSync(this.filePath)) {
       try {
